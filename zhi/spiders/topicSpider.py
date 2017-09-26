@@ -14,11 +14,7 @@ class LoginPySpider(scrapy.Spider):
     # 'Connection': 'Keep-Alive'
     }
 
-    cookies={'cap_id':"\"MWVjY2NjYmUyZDUzNDdlYjllNjc3ZjY1ZDg0NzA2MzM=|1505801473|022c7a676ec1674ece119f1935ebd85a2b81e0fe\"",
-    'q_c1':"639c3df9dcf645c4a22fe3fa971a128c|1505801473000|1505801473000",
-    'r_cap_id':"\"ZTYxNDY4M2FiN2MxNGY0MThiNTQ3NWNhN2ZlMTFiZGQ=|1505801473|2d87a82d9eefeb81ebe57133f00fcd2c8e95de95\"",
-    'z_c0':"\"MS4xS2NtTUF3QUFBQUFYQUFBQVlRSlZUUkZDNkZrYjhqSDlPbENibEhYR0lWQlF4U1ZYaW5ub0NnPT0=|1505801489|44cbad4c0db199c165487ae7ef81b3fd1ff5450c\"",
-    'aliyungf_tc':'AQAAAMJRVTr8Og4AbH8nd6Ccel5kP0DC'}
+    cookies={}
 
     def start_requests(self):
         requestList=[]
