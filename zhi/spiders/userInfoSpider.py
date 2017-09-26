@@ -7,7 +7,7 @@ from zhi.items import UserItem
 访问用户的资料接口需要在setting文件里的default_request_headers添加一个authorization属性
     DEFAULT_REQUEST_HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
-    'authorization': 'Bearer Mi4xS2NtTUF3QUFBQUFBa01JbDNSRkpEQmNBQUFCaEFsVk45ekhyV1FCbVR1QmFGR2xINjQyYkJYcEZGQ3BVWUNRajRn|1505993976|6a45a743ae225cd1428cce4a62a19d3b4b25d3a8',
+    'authorization': '',
 }
 authorization 可以通过chrome 抓包 获取这个隐藏权限赋予参数 ，可能这个值以后会改变 ，最好通过init提前获取一次确定，以后改。
 抓的网址在类似这种地方 https://www.zhihu.com/people/excited-vczh/followers
